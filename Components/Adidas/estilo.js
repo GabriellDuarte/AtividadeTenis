@@ -8,25 +8,29 @@ const estilo = StyleSheet.create({
       justifyContent: 'center',
     },
       card:{
-      width: 250,
-      height: 250,
+      width: 280,
+      height: 300,
       alignItems: 'center',
       borderRadius: 20,
-      marginBottom: 15
+      backgroundColor: 'grey',
+      marginBottom: 30,
     },
     card_titulo:{
-        fontSize: 24,
+        fontSize: 20,
         fontWeight: "bold",
         backgroundColor: "#0f0f0fcf",
         paddingLeft: 10,
-        color: "#FFF"
+        borderRadius: 10,
+        color: "#FFF",
+        textAlign: 'center',
+        padding: 5
     },
     card_valor:{
         fontSize: 20,
         backgroundColor: "#0f0f0fcf",
         textAlign: "Center",
-        color: "#FFF",
-
+        color: "#FFF", 
+        marginTop: 220,
     }
   });
 

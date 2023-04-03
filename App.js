@@ -3,8 +3,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 // import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import TelaAdidas from './Components/Adidas/TenisAdidas';
-import TelaNike from './Components/Mizuno/TenisMizuno';
-import TelaMizuno from './Components/Nike/TenisNike';
+import TelaNike from './Components/Nike/TenisNike';
+import TelaMizuno from './Components/Mizuno/TenisMizuno';
 
 
 const Nav = createDrawerNavigator();
